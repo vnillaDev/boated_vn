@@ -5929,6 +5929,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pfPlayerSkinVarient
       objectReference: {fileID: 0}
+    - target: {fileID: 5402467137497867081, guid: 8dc1ca07923f44f9685e938e5d1f94c2, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 859481430207991704, guid: 8dc1ca07923f44f9685e938e5d1f94c2, type: 3}
@@ -5943,8 +5947,31 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6448273560824281009, guid: 8dc1ca07923f44f9685e938e5d1f94c2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7882652139126812038}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5402467137497867081, guid: 8dc1ca07923f44f9685e938e5d1f94c2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -9074202672187170210}
   m_SourcePrefab: {fileID: 100100000, guid: 8dc1ca07923f44f9685e938e5d1f94c2, type: 3}
+--- !u!1 &680296158516152755 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5402467137497867081, guid: 8dc1ca07923f44f9685e938e5d1f94c2, type: 3}
+  m_PrefabInstance: {fileID: 4866578087600663290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-9074202672187170210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680296158516152755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20df319e4dc674bc2b8e07dd51f710ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeSpeed: 10
+  fadeOpacity: 0.5
+  DoFade: 0
 --- !u!4 &1942547183640927563 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6448273560824281009, guid: 8dc1ca07923f44f9685e938e5d1f94c2, type: 3}
